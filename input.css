@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
 
     .bg-hero-md::before {
-        content: "";
+        content: "" !;
         display: block;
         position: absolute;
         width: 100%;
@@ -78,4 +77,3 @@
         opacity: 1 !important;
         transform: translateY(0) !important;
     }
-}
