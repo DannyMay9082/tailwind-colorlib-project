@@ -13,11 +13,8 @@
         background-color: #202040;
     }
 
-
-    
-
     .features-list-item {
-        @apply py-8 px-16 text-center md:text-left;
+        @apply py-8 px-16 text-center ;
        
     }
 
@@ -70,4 +67,15 @@
         @apply text-primaryRed;
     }
 
+    .dropdown:hover > ul {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: translateY(10%) !important;
+    }
+
+    .dropdown:hover > ul:hover > li:nth-child(2):hover > ul {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
 }

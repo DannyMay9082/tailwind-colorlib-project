@@ -2,6 +2,7 @@ AOS.init({
     offset: 200,
     duration: 800,
     delay: 100,
+    once: true,
 });
 
 const swiper = new Swiper('.swiper', {
