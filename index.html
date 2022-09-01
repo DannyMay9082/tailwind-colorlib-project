@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/05f3ef050b.js" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+
+    <title>Easy</title>
+
+
+</head>
+
+<body class=" bg-primaryGrayLight font-montserrat" data-aos="fade-in">
+    <!-- Navigation -->
+    <nav class="absolute z-10 py-8 w-full text-white ">
+        <!-- Navigation Flex Container -->
+        <div class="container flex justify-between px-4 mx-auto md:px-20">
+            <!-- Navigation Left -->
+            <div class="flex">
+                <!-- Navigation Logo -->
+                <a href="#" class="text-2xl font-bold ">Easy</a>
+                <!-- Navigation List -->
+                <ul class="hidden flex-row items-center pl-16 space-x-8 text-sm md:flex">
+                    <li><a href="#" class="transition-all text-primaryRed hover:text-primaryRed">Home</a></li>
+                    <li><a href="#" class="transition-all hover:text-primaryRed">Dropdown</a></li>
+                    <li><a href="#" class="transition-all hover:text-primaryRed">Inner Page</a></li>
+                    <li><a href="#" class="transition-all hover:text-primaryRed">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Navigation Right -->
+            <div class="">
+                <!-- Navigation Button -->
+                <a href="#"
+                    class="hidden py-2 px-4 text-sm text-white rounded-full border-2 transition-all md:flex border-primaryGrayDark duration-400 hover:border-primaryRed hover:bg-primaryRed">
+                    Free Templates</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="bg-hero-md aos-init before:h-[55rem] md:before:h-[42rem]">
+        <!--Hero Container-->
+        <div
+            class="container flex flex-col justify-between items-center px-4 pt-28 mx-auto space-y-10 md:pt-20 md:px-20 md:flex-row">
+            <!-- Hero Left -->
+            <div class="z-10 space-y-6 md:space-y-8 md:w-2/5">
+                <!--Hero Heading-->
+                <h1 class="text-5xl font-bold text-white " data-aos="fade-up">Get
+                    Paid Easily without Hassle</h1>
+                <!--Hero Description-->
+                <p class="leading-8 text-white text-md" data-aos="fade-up" data-aos-delay="200">Far far away, behind
+                    the word mountains, far from the countries
+                    Vokalia and Consonantia, there live the blind texts.
+                    Separated they live.</p>
+                <!--Hero Form-->
+                <form action="#" class="flex overflow-hidden justify-between p-3 bg-white rounded-lg "
+                    data-aos="fade-up" data-aos-delay="300">
+                    <!--Hero Form Email-->
+                    <input class="px-4 w-full text-xs outline-none md:text-md text-primaryGray " type="email"
+                        placeholder="Enter email adress" name="email">
+                    <!--Hero Form Submit-->
+                    <input
+                        class="py-3 px-6 text-sm text-white rounded-lg duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                        type="submit" value="Sign Up">
+                </form>
+            </div>
+            <!--Hero Right-->
+            <figure data-aos="fade-up" data-aos-duration="800" class="z-10">
+                <!--Hero Image-->
+                <img class="" src="./img/illustrations/hero_img.png" alt="Hero image">
+            </figure>
+        </div>
+
+    </section>
+    <!-- Companies Section -->
+    <section id="companies">
+        <!-- Companies Container -->
+        <div
+            class="container flex justify-between items-center px-4 pt-14 mx-auto space-y-10 md:pt-36 md:px-20 md:flex-row">
+            <!-- Companies List -->
+            <ul class="grid grid-cols-2 md:grid-cols-4">
+                <li data-aos="fade-up"><img src="./img/company/puma.webp" alt="Puma"></li>
+                <li data-aos="fade-up" data-aos-delay="150"><img src="./img/company/adobe.webp" alt="Adobe"></li>
+                <li data-aos="fade-up" data-aos-delay="300"><img src="./img/company/google.webp" alt="Google"></li>
+                <li data-aos="fade-up" data-aos-delay="450"><img src="./img/company/paypal.webp" alt="PayPal"></li>
+            </ul>
+        </div>
+
+    </section>
+    <!--Features Section-->
+    <section id="features">
+        <div class="container flex flex-col justify-between py-16 px-4 mx-auto space-y-5 md:px-20">
+            <!-- Features Header -->
+            <header data-aos="fade-up" class="mx-auto ">
+                <!-- Features Title Secondary  -->
+                <h3 class="text-sm font-bold text-center uppercase text-primaryRed">AWESOME
+                    FEATURES
+                </h3>
+                <!-- Features Title Primary -->
+                <h2 class="text-3xl font-bold text-center text-primaryBlueDark">Cool Features
+                </h2>
+                <!--Features Description-->
+                <p class="leading-8 text-center text-md ">Far far away,
+                    behind the word mountains, far from the countries
+                    Vokalia and
+                    Consonantia
+                </p>
+            </header>
+            <!-- Features List -->
+            <ul class="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 ">
+                <!-- List Item -->
+                <li data-aos="fade-up" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/coins.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Cash
+                        Collection</h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+                <!-- List Item -->
+                <li data-aos="fade-up" data-aos-delay="150" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/stats.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Analytics
+                    </h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+                <!-- List Item -->
+                <li data-aos="fade-up" data-aos-delay="300" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/garage.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Payment</h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+                <!-- List Item -->
+                <li data-aos="fade-up" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/notebook.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Cash
+                        Collection
+                    </h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+                <!-- List Item -->
+                <li data-aos="fade-up" data-aos-delay="150" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/gold-ingots.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Analytics</h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+                <!-- List Item -->
+                <li data-aos="fade-up" data-aos-delay="300" class="features-list-item">
+                    <!--List Item Image Wrapper-->
+                    <div class="inline-block p-4 mb-6 bg-white rounded-5xl">
+                        <img src="./img/features/brochure.svg" class="w-14" alt="">
+                    </div>
+                    <!--List Item Title-->
+                    <h3 class="mb-3 text-lg font-bold uppercase">Payment</h3>
+                    <!--List Item Description-->
+                    <p class="text-sm leading-6 ">Manage your invoces from
+                        creation to payment. With Upflow you'll collect 100%
+                        of.</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <!-- Testimonials Container -->
+        <div
+            class="container flex flex-col justify-between items-center py-16 px-4 mx-auto space-y-16 md:space-y-0 md:space-x-16 md:flex-row md:px-20">
+            <!-- Testimonials Left -->
+            <header data-aos="fade-up" class=" text-primaryBlueDark md:w-3/12">
+                <!-- Testimonials Title Secondary  -->
+                <h3 class="text-sm font-bold text-left uppercase text-primaryRed">JOIN
+                    NOW
+                </h3>
+                <!-- Testimonials Title Primary -->
+                <h2 class="mb-6 text-3xl font-bold ">Join More Than 90,000+ Amazing People Loves
+                    Our Product
+                </h2>
+                <!--Testimonials Description-->
+                <p class="mb-6 leading-6 text-md ">Far far away, behind the
+                    word
+                    mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.
+                </p>
+                <!--Testimonials Button-->
+                <input
+                    class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                    type="button" value="Product Tour">
+            </header>
+            <!-- Testimonials Right -->
+            <div data-aos="fade-up"
+                class="flex flex-wrap px-12 pt-8 pb-5 space-y-12 w-full bg-white rounded-md shadow-lg md:w-7/12">
+                <!-- Testimonials Slider -->
+                <div class="swiper">
+                    <!-- Slider List -->
+                    <ul class=" swiper-wrapper active:cursor-grab">
+                        <!-- Slider Item -->
+                        <li class="flex flex-wrap px-1 space-y-6 swiper-slide">
+                            <!-- Slider Item Header-->
+                            <header class="flex items-center space-x-4">
+                                <!-- Slider Item Picture -->
+                                <img class="w-20 rounded-full" src="./img/people/people-1.webp" alt="">
+                                <div>
+                                    <!-- Slider Item Heading primary-->
+                                    <h2 class="font-bold text-md text-primaryBlueDark">Kaila Woodland</h2>
+                                    <!-- Slider Item Heading secondary-->
+                                    <h3 class="text-md text-primaryGray">Owner,
+                                        Greenland, Inc.</h3>
+                                </div>
+                            </header>
+                            <!-- Slider Item Quote -->
+                            <blockquote class="font-bold leading-6 text-md text-primaryBlueDark">
+                                “Far far away, behind the word
+                                mountains, far from the countries
+                                Vokalia and Consonantia, there live the
+                                blind texts. Separated they live.”
+                            </blockquote>
+                        </li>
+                        <li class="flex flex-wrap px-1 space-y-6 swiper-slide">
+                            <header class="flex items-center space-x-4">
+                                <img class="w-20 rounded-full" src="./img/people/people-2.webp" alt="">
+                                <div>
+                                    <h2 class="font-bold text-md text-primaryBlueDark">Kaila Woodland</h2>
+                                    <h3 class="text-md text-primaryGray">Owner,
+                                        Greenland, Inc.</h3>
+                                </div>
+                            </header>
+                            <blockquote class="font-bold leading-6 text-md text-primaryBlueDark">
+                                “Far far away, behind the word
+                                mountains, far from the countries
+                                Vokalia and Consonantia, there live the
+                                blind texts. Separated they live.”
+                            </blockquote>
+                        </li>
+                        <li class="flex flex-wrap px-1 space-y-6 swiper-slide">
+                            <header class="flex items-center space-x-4">
+                                <img class="w-20 rounded-full" src="./img/people/people-3.webp" alt="">
+                                <div>
+                                    <h2 class="font-bold text-md text-primaryBlueDark">Kaila Woodland</h2>
+                                    <h3 class="text-md text-primaryGray">Owner,
+                                        Greenland, Inc.</h3>
+                                </div>
+                            </header>
+                            <blockquote class="font-bold leading-6 text-md text-primaryBlueDark">
+                                “Far far away, behind the word
+                                mountains, far from the countries
+                                Vokalia and Consonantia, there live the
+                                blind texts. Separated they live.”
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Slider Navigation Buttons -->
+                <div class="flex space-x-10 ">
+                    <div class="swiper-button-prev "><i
+                            class="p-3 border transition-all duration-200 hover:border-black border-primaryGray fa-solid fa-arrow-left-long"></i>
+                    </div>
+                    <div class="swiper-button-next"><i
+                            class="p-3 border transition-all duration-200 hover:border-black border-primaryGray fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Benefits Section -->
+    <section id="benefits">
+        <!-- Benefits Top Container-->
+        <div
+            class="container flex flex-col-reverse justify-between items-center py-16 px-4 mx-auto md:space-x-16 md:px-20 md:flex-row">
+            <!-- Benefits Top Left-->
+            <header data-aos="fade-up" class="w-full md:w-1/3">
+                <!-- Benefits Top Title Secondary  -->
+                <h3 class="text-sm font-bold text-left uppercase text-primaryRed">Life changing app
+                </h3>
+                <!-- Benefits Top Title Primary -->
+                <h2 class="mb-6 text-2xl font-bold md:text-3xl text-primaryBlueDark">Far far away, behind the word
+                    mountains
+                </h2>
+                <!--Benefits Top Description-->
+                <p class="mb-6 leading-6 text-md ">Far far away, behind the
+                    word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.
+                </p>
+                <!--Benefits Top Button-->
+                <input
+                    class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                    type="button" value="Product Tour">
+            </header>
+            <!-- Benefits Top Right-->
+            <figure data-aos="fade-up" class="mb-5 md:mb-0 md:w-3/5">
+                <!--Benefits Top Image-->
+                <img class="" src="./img/illustrations/illust-top.svg" alt="Benefits image">
+            </figure>
+        </div>
+        <!-- Benefits Bottom Container-->
+        <div
+            class="container flex flex-col justify-between items-center py-16 px-4 mx-auto md:space-x-16 md:px-20 md:flex-row">
+
+            <!-- Benefits Bottom Right-->
+            <figure data-aos="fade-up" class="mb-5 md:mb-0 md:w-3/5">
+                <!--Benefits Bottom Image-->
+                <img class="" src="./img/illustrations/illust-bottom.svg" alt="Benefits image">
+            </figure>
+            <!-- Benefits Bottom Right-->
+            <header data-aos="fade-up" class="w-full md:w-1/3">
+                <!-- Benefits Top Title Secondary  -->
+                <h3 class="text-sm font-bold text-left uppercase text-primaryRed">Life changing app
+                </h3>
+                <!-- Benefits Top Title Primary -->
+                <h2 class="mb-6 text-2xl font-bold md:text-3xl text-primaryBlueDark">Far far away, behind the word
+                    mountains
+                </h2>
+                <!--Benefits Top Description-->
+                <p class="mb-6 leading-6 text-md ">Far far away, behind the
+                    word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.
+                </p>
+                <!--Benefits Top Button-->
+                <input
+                    class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                    type="button" value="Product Tour">
+            </header </div>
+
+    </section>
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <!-- Pricing Container -->
+        <div class="container flex flex-col justify-between py-16 px-4 mx-auto space-y-8 md:px-20 md:space-y-16">
+            <!-- Pricing Header -->
+            <header data-aos="fade-up" class="mx-auto ">
+                <!-- Pricing Title Secondary  -->
+                <h3 class="text-sm font-bold text-center uppercase text-primaryRed">pricing for everyone
+                </h3>
+                <!-- Pricing Title Primary -->
+                <h2 class="mb-4 text-3xl font-bold text-center text-primaryBlueDark">Our Pricing
+
+                </h2>
+                <!--Pricing Toggle-->
+                <div class="flex flex-row items-center space-x-2">
+                    <span class="text-sm">Monthly</span>
+                    <div class="relative w-14 h-8 rounded-full bg-primaryRed">
+                        <input type="checkbox" id="toggle" name="checkbox" class="w-0 h-0 opacity-0">
+                        <label for="toggle" class="bg-white shadow-lg cursor-pointer slider"></label>
+                    </div>
+                    <div class="space-x-1">
+                        <span class="text-sm">Yearly</span>
+                        <span
+                            class="inline-block py-1 px-2 text-xs font-semibold text-white rounded-full bg-primaryRed">save
+                            25%</span>
+                    </div>
+                </div>
+
+            </header>
+
+            <div class="flex flex-col justify-between md:flex-row ">
+                <!-- Pricing Personal -->
+                <div data-aos="fade-up" data-aos-delay="0"
+                    class="flex flex-col py-20 px-10 space-y-4 text-center md:w-1/3">
+                    <h3 class="mb-4 text-2xl font-bold text-primaryBlueDark">Personal</h3>
+                    <p class="text-primaryGray ">Far far away, behind the
+                        word mountains</p>
+                    <hr>
+                    <!-- Price Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto space-x-1 h-9">
+                        <!-- Prices -->
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="text-3xl font-bold text-primaryRed ">$29</span>
+                            <span class="text-3xl font-bold text-primaryRed ">$299</span>
+                        </div>
+                    </div>
+                    <!-- Price Description Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto h-6">
+                        <span class="pr-1">Per</span>
+
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="">month</span>
+                            <span class="text-left">year</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2 text-left ">
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                    </ul>
+
+                    <div class="">
+                        <input
+                            class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                            type="button" value="Get Started">
+                    </div>
+
+                </div>
+                <!-- Pricing Enterprise -->
+                <div data-aos="fade-up" data-aos-delay="150"
+                    class="flex flex-col py-20 px-10 space-y-4 text-center bg-white rounded-lg md:w-1/3">
+                    <h3 class="mb-4 text-2xl font-bold text-primaryBlueDark">Enterprise</h3>
+                    <p class="text-primaryGray ">Far far away, behind the
+                        word mountains</p>
+                    <hr>
+                    <!-- Price Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto space-x-1 h-9">
+                        <!-- Prices -->
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="text-3xl font-bold text-primaryRed ">$49</span>
+                            <span class="text-3xl font-bold text-primaryRed ">$599</span>
+                        </div>
+                    </div>
+                    <!-- Price Description Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto h-6">
+                        <span class="pr-1">Per</span>
+
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="">month</span>
+                            <span class="text-left">year</span>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2 text-left ">
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                    </ul>
+
+                    <div class="">
+                        <input
+                            class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                            type="button" value="Get Started">
+                    </div>
+
+                </div>
+                <!-- Pricing Organization -->
+                <div data-aos="fade-up" data-aos-delay="300"
+                    class="flex flex-col py-20 px-10 space-y-4 text-center md:w-1/3">
+                    <h3 class="mb-4 text-2xl font-bold text-primaryBlueDark">Organization</h3>
+                    <p class="text-primaryGray ">Far far away, behind the
+                        word mountains</p>
+                    <hr>
+                    <!-- Price Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto space-x-1 h-9">
+                        <!-- Prices -->
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="text-3xl font-bold text-primaryRed ">$99</span>
+                            <span class="text-3xl font-bold text-primaryRed ">$1,999</span>
+                        </div>
+                    </div>
+                    <!-- Price Description Wrapper -->
+                    <div class="flex overflow-hidden flex-row mx-auto h-6">
+                        <span class="pr-1">Per</span>
+
+                        <div class="flex flex-col transition-all duration-300 animation-toggle">
+                            <span class="">month</span>
+                            <span class="text-left">year</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-2 text-left ">
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                        <li class="space-x-2"><i class="fa-solid fa-circle-check"></i>
+                            <span> Far far away, behind the word mountains</span>
+                        </li>
+                    </ul>
+
+                    <div class="">
+                        <input
+                            class="py-3 px-8 text-sm text-white rounded-full duration-200 cursor-pointer transition:all hover:bg-primaryRedLight active:bg-primaryBlueLight active:shadow-button-focus bg-primaryRed"
+                            type="button" value="Get Started">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Posts Section -->
+    <section id="blog" class="bg-blogPostGray">
+        <div class="container flex flex-col justify-between py-16 px-4 mx-auto space-y-8 md:px-20 md:space-y-16">
+            <header data-aos="fade-up" class="mx-auto">
+                <h3 class="text-sm font-bold text-center uppercase text-primaryRed">Blog
+                </h3>
+                <h2 class="mb-4 text-3xl font-bold text-center text-primaryBlueDark">Blog Posts
+                </h2>
+
+            </header>
+
+            <div class="flex flex-row flex-wrap justify-between space-y-8 md:space-y-0 md:space-x-8 md:flex-nowrap">
+
+                <div data-aos="fade-up" data-aos-delay="0" class="flex flex-col justify-between blog-post-hover">
+                    <a class="block h-52 bg-center bg-cover bg-blogImage-1 grayscale" href="">
+                    </a>
+                    <div class="p-6 bg-white">
+                        <span class="text-xs text-primaryGray ">May 14, 2020</span>
+                        <h3 class="mb-3"><a href="#"
+                                class="font-bold transition-all duration-200 hover:text-primaryRed primaryBlueDark text-md ">
+                                Far far away, behind the word mountains
+                            </a>
+                        </h3>
+                        <p class="mb-5 text-sm leading-6">Vokalia and
+                            Consonantia, there live the blind texts.
+                            Separated they live.</p>
+                        <a href="#" class="flex justify-end items-center">
+                            <span
+                                class="pr-2 text-sm font-bold opacity-0 transition-all duration-300 translate-x-3">Read
+                                More</span>
+                            <span
+                                class="flex justify-center items-center w-8 h-8 rounded-full border transition-all duration-300 "><i
+                                    class=" text-primaryRed fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col justify-between blog-post-hover">
+                    <a class="block h-52 bg-center bg-cover bg-blogImage-2 grayscale" href="">
+                    </a>
+                    <div class="p-6 bg-white">
+                        <span class="text-xs text-primaryGray ">May 14, 2020</span>
+                        <h3 class="mb-3"><a href="#"
+                                class="font-bold transition-all duration-200 hover:text-primaryRed primaryBlueDark text-md ">
+                                Far far away, behind the word mountains
+                            </a>
+                        </h3>
+                        <p class="mb-5 text-sm leading-6">Vokalia and
+                            Consonantia, there live the blind texts.
+                            Separated they live.</p>
+                        <a href="#" class="flex justify-end items-center">
+                            <span
+                                class="pr-2 text-sm font-bold opacity-0 transition-all duration-300 translate-x-3">Read
+                                More</span>
+                            <span
+                                class="flex justify-center items-center w-8 h-8 rounded-full border transition-all duration-300 "><i
+                                    class=" text-primaryRed fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="300" class="flex flex-col justify-between blog-post-hover">
+                    <a class="block h-52 bg-center bg-cover bg-blogImage-3 grayscale" href="">
+                    </a>
+                    <div class="p-6 bg-white">
+                        <span class="text-xs text-primaryGray ">May 14, 2020</span>
+                        <h3 class="mb-3"><a href="#"
+                                class="font-bold transition-all duration-200 hover:text-primaryRed primaryBlueDark text-md ">
+                                Far far away, behind the word mountains
+                            </a>
+                        </h3>
+                        <p class="mb-5 text-sm leading-6">Vokalia and
+                            Consonantia, there live the blind texts.
+                            Separated they live.</p>
+                        <a href="#" class="flex justify-end items-center">
+                            <span
+                                class="pr-2 text-sm font-bold opacity-0 transition-all duration-300 translate-x-3">Read
+                                More</span>
+                            <span
+                                class="flex justify-center items-center w-8 h-8 rounded-full border transition-all duration-300 "><i
+                                    class=" text-primaryRed fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="450" class="flex flex-col justify-between blog-post-hover">
+                    <a class="block h-52 bg-center bg-cover bg-blogImage-4 grayscale" href="">
+                    </a>
+                    <div class="p-6 bg-white">
+                        <span class="text-xs text-primaryGray ">May 14, 2020</span>
+                        <h3 class="mb-3"><a href="#"
+                                class="font-bold transition-all duration-200 hover:text-primaryRed primaryBlueDark text-md ">
+                                Far far away, behind the word mountains
+                            </a>
+                        </h3>
+                        <p class="mb-5 text-sm leading-6">Vokalia and
+                            Consonantia, there live the blind texts.
+                            Separated they live.</p>
+                        <a href="#" class="flex justify-end items-center">
+                            <span
+                                class="pr-2 text-sm font-bold opacity-0 transition-all duration-300 translate-x-3">Read
+                                More</span>
+                            <span
+                                class="flex justify-center items-center w-8 h-8 rounded-full border transition-all duration-300 "><i
+                                    class=" text-primaryRed fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <!--Footer-->
+    <footer>
+        <!-- Footer Container -->
+        <div class="container flex flex-col justify-between py-16 px-4 mx-auto space-y-10 md:flex-row md:px-20">
+            <div class="flex flex-col space-y-5 md:w-2/5">
+                <div class="space-y-5">
+                    <h3 class="font-bold text-primaryBlueDark">About</h3>
+                    <p class="w-10/12 leading-7 ">Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live.</p>
+                </div>
+
+                <div class="space-y-10 ">
+                    <h3 class="font-bold text-primaryBlueDark">Connect with us</h3>
+                    <ul class="flex flex-row space-x-2 ">
+                        <li><a class="p-4 rounded-lg social bg-secondaryGray" href="#"><i
+                                    class="transition-all duration-300 fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="p-4 rounded-lg social bg-secondaryGray" href="#"><i
+                                    class="transition-all duration-300 fa-brands fa-twitter"></i></a></li>
+                        <li><a class="p-4 rounded-lg social bg-secondaryGray" href="#"><i
+                                    class="transition-all duration-300 fa-brands fa-instagram"></i></a></li>
+                        <li><a class="p-4 rounded-lg social bg-secondaryGray" href="#"><i
+                                    class="transition-all duration-300 fa-brands fa-dribbble"></i></a></li>
+                        <li><a class="p-4 rounded-lg social bg-secondaryGray" href="#"><i
+                                    class="transition-all duration-300 fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="space-y-5 md:w-1/2">
+                <h3 class="font-bold text-primaryBlueDark">Navigations</h3>
+                <ul class="grid grid-cols-2 gap-y-5 gap-x-32 md:grid-cols-3 md:text-sm">
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Home</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Services</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Work</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Process</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">About Us</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Press</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Blog</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Contact</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Support</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Privacy</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Privacy</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Faq</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Careers</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">Process</a></li>
+                    <li><a class="transition-all duration-300 hover:text-primaryRed" href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="text-center">
+            <small class="px-4 text-xs text-center">
+                Copyright ©2022 All rights reserved This template is made with
+                <i class="text-primaryRed fa-solid fa-heart"></i> by
+                <a href="https://colorlib.com/" class="hover:text-primaryRed">Colorlib</a>
+                Coded by <a href="https://github.com/Ahm3tJ4f" class="hover:text-primaryRed">Ahmad Jafarov</a>
+            </small>
+        </div>
+    </footer>
+</body>
+
+</html>

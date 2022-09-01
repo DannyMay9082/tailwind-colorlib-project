@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+
+    .bg-hero-md::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 72%, 0% 100%) ;
+        background-color: #202040;
+    }
+
+
+    
+
+    .features-list-item {
+        @apply py-8 px-16 text-center md:text-left;
+       
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: black !important;
+        width: 1rem !important;
+        position: static !important;
+    } 
+    
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+     content: "" !important;
+
+    }
+
+    .slider {
+        display: block;
+        @apply w-7 h-7;
+        position: absolute;
+        border-radius: 50%;
+        top: 2px;
+        left: 1px;
+        transition: all .3s ease-out;
+    }
+
+    input[type='checkbox']:checked + .slider  {
+        transform: translateX(1.6rem);
+    }
+    
+    .yearly {
+        transform: translateY(-102%);
+    }
+
+    .blog-post-hover:hover > div > a > span:nth-child(1) {
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+    }
+     
+    .blog-post-hover:hover > div > a > span:nth-child(2){
+        @apply border-primaryRed !important;
+    }
+
+
+    .blog-post-hover:hover > a {
+        filter: grayscale(0%) !important;
+    }
+    
+    .social:hover i {
+        @apply text-primaryRed;
+    }
+
+}
