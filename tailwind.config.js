@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'blogImage-1': "url('./img/blog-thumbnail/blog-1.jpg')",
-        'blogImage-2': "url('./img/blog-thumbnail/blog-2.jpg')",
-        'blogImage-3': "url('./img/blog-thumbnail/blog-3.jpg')",
-        'blogImage-4': "url('./img/blog-thumbnail/blog-4.jpg')",
+        'blogImage-1': "url('../img/blog-thumbnail/blog-1.jpg')",
+        'blogImage-2': "url('../img/blog-thumbnail/blog-2.jpg')",
+        'blogImage-3': "url('../img/blog-thumbnail/blog-3.jpg')",
+        'blogImage-4': "url('../img/blog-thumbnail/blog-4.jpg')",
       },
       borderRadius: { '5xl': '30px' },
       boxShadow: {

@@ -885,19 +885,19 @@ video {
 }
 
 .bg-blogImage-1 {
-  background-image: url('./img/blog-thumbnail/blog-1.jpg');
+  background-image: url('../img/blog-thumbnail/blog-1.jpg');
 }
 
 .bg-blogImage-2 {
-  background-image: url('./img/blog-thumbnail/blog-2.jpg');
+  background-image: url('../img/blog-thumbnail/blog-2.jpg');
 }
 
 .bg-blogImage-3 {
-  background-image: url('./img/blog-thumbnail/blog-3.jpg');
+  background-image: url('../img/blog-thumbnail/blog-3.jpg');
 }
 
 .bg-blogImage-4 {
-  background-image: url('./img/blog-thumbnail/blog-4.jpg');
+  background-image: url('../img/blog-thumbnail/blog-4.jpg');
 }
 
 .bg-cover {
