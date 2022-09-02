@@ -30,10 +30,14 @@ const closeButton = document.querySelector('.close-button');
 
 hamburgerButton.addEventListener('click', (e) => {
     hamburgerMenu.classList.add("show-menu");
+    hamburgerMenu.classList.remove("invisible");
+    hamburgerMenu.classList.remove("hidden");
 })
 
 
 closeButton.addEventListener('click', (e) => {
     e.preventDefault()
     hamburgerMenu.classList.remove("show-menu");
+    hamburgerMenu.classList.add("invisible");
+    hamburgerMenu.classList.add("hidden");
 })

@@ -613,6 +613,10 @@ video {
   left: 100%;
 }
 
+.top-\[-3px\] {
+  top: -3px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -1138,6 +1142,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1405,6 +1414,10 @@ input[type='checkbox']:checked + .label > i {
 }
 
 @media (min-width: 1024px) {
+  .lg\:invisible {
+    visibility: hidden;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
