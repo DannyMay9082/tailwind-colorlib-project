@@ -24,3 +24,16 @@ checkbox.addEventListener("change", () => {
     else animation.map(e => e.classList.remove('yearly'));
 })
 
+const hamburgerButton = document.querySelector('.hamburger-button');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const closeButton = document.querySelector('.close-button');
+
+hamburgerButton.addEventListener('click', (e) => {
+    hamburgerMenu.classList.add("show-menu");
+})
+
+
+closeButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    hamburgerMenu.classList.remove("show-menu");
+})

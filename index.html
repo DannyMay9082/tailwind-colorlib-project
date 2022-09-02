@@ -12,18 +12,64 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/swiper.css">
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/05f3ef050b.js" crossorigin="anonymous"></script>
     <script defer src="./script.js"></script>
-
     <title>Easy</title>
-
-
 </head>
 
 <body class=" bg-primaryGrayLight font-montserrat" data-aos="fade-in">
+
+    <div class="hamburger-menu">
+        <header class="float-right p-5">
+            <a href="#" class="close-button"><i class="text-2xl fa-solid fa-x"></i></a>
+        </header>
+
+        <ul class="flex flex-col pt-20 pl-2 space-y-4 text-sm ">
+            <li><a href="#" class="p-4 transition-all text-primaryRed hover:text-primaryRed">Home</a></li>
+            <li class="relative">
+                <a href="#" class="flex justify-between px-4 transition-all ">
+                    <span class="transition-all hover:text-primaryRed">Dropdown</span>
+                    <input type="checkbox" class="hidden invisible" id="side-dropdown">
+                    <label class="cursor-pointer" for="side-dropdown"><i
+                            class="right-0 top-0 transition-all hover:text-primaryRed absolute py-[8px] px-[9px] rounded-full border fa-solid dropdown fa-angle-down"></i></label>
+                </a>
+
+                <ul
+                    class="absolute invisible py-8 px-4 mx-auto space-y-4 w-44 text-black bg-white rounded-sm opacity-0 transition-all translate-y-10 duration-50">
+                    <li class=""><a href="#" class="transition-all hover:text-primaryRed">Menu
+                            One</a></li>
+                    <li class=""><a href="#" class="relative transition-all hover:text-primaryRed">Menu
+                            Two <i class="ml-10 fa-solid fa-angle-right"></i>
+                            <ul
+                                class="absolute top-1/3 left-full invisible px-4 pb-4 mx-auto mt-4 space-y-4 w-40 text-black bg-white rounded-sm shadow-lg opacity-0 transition-all translate-y-10 duration-50">
+                                <li class=""><a href="#" class="transition-all hover:text-primaryRed">Sub
+                                        Menu
+                                        One</a></li>
+                                <li class=""><a href="#" class="transition-all hover:text-primaryRed">Sub
+                                        Menu
+                                        Two</i>
+
+                                    </a>
+                                </li>
+                                <li class=""><a href="#" class="transition-all hover:text-primaryRed">Sub
+                                        Menu
+                                        Three</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class=""><a href="#" class="transition-all hover:text-primaryRed">Menu
+                            Three</a></li>
+                </ul>
+
+
+            </li>
+            <li><a href="#" class="p-4 transition-all hover:text-primaryRed">Inner Page</a></li>
+            <li><a href="#" class="p-4 transition-all hover:text-primaryRed">Contact Us</a></li>
+            <li><a href="#" class="p-4 transition-all hover:text-primaryRed">Free Templates</a></li>
+        </ul>
+    </div>
     <!-- Navigation -->
     <nav class="absolute z-50 py-8 w-full text-white ">
         <!-- Navigation Container -->
@@ -74,11 +120,15 @@
                 </ul>
             </div>
             <!-- Navigation Right -->
-            <div class="">
+            <div class="cursor-pointer hamburger-button">
                 <!-- Navigation Button -->
                 <a href="#"
-                    class="hidden py-2 px-4 text-sm text-white rounded-full border-2 transition-all lg:flex border-primaryGrayDark duration-400 hover:border-primaryRed hover:bg-primaryRed">
-                    Free Templates</a>
+                    class="hidden py-2 px-4 text-sm text-white rounded-full border-2 transition-all hover:bg-primaryRed lg:flex border-primaryGrayDark duration-400 hover:border-primaryRed">Free
+                    Templates</a>
+
+                <a href="#" class="block cursor-pointer lg:hidden hamburger-lines">
+                    <span class="block rounded-[2px] h-[3px] w-8 bg-white  "></span>
+                </a>
             </div>
         </div>
     </nav>

@@ -77,3 +77,56 @@
         opacity: 1 !important;
         transform: translateY(0) !important;
     }
+
+    .hamburger-lines::before
+    {
+        content: "";
+        transition: all .1s;
+        width: 2rem;
+        border-radius: 2px;
+        height: 2.5px;
+        margin-bottom: .5rem;
+        display:block;
+        background-color: white;
+
+    }
+
+    .hamburger-lines::after {
+        content: "";
+        transition: all .1s;
+        border-radius: 2px;
+        width: 2rem;
+        height: 2.5px;
+        margin-top : .5rem;
+        position:absolute;
+        display:block;
+        background-color: white;
+    }
+
+
+    .hamburger-button:hover > a:nth-child(2)::before {
+        transform: translateY(3px) ;
+    }
+
+    .hamburger-button:hover > a:nth-child(2)::after {
+        transform: translateY(-3px) ;
+    }
+
+    .hamburger-menu {
+        position: fixed;
+        right:0;
+        z-index: 51;
+        width: 300px;
+        height:100vh;
+        background-color:white;
+        transition: all .3s;
+        transform: translateX(100vw);
+    }
+
+    .show-menu {
+        transform: translateX(0);
+    }
+
+    input[type='checkbox']:checked + .label > i {
+        transform: rotate('180deg');
+    }
